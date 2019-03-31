@@ -1,0 +1,42 @@
+{
+  "name": "netology-ajs-lection_3-task_2",
+  "version": "1.0.0",
+  "description": "Code for task 2 of lesson 3 in AJS course at Netology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/extrin/netology-ajs-lection_3-task_2.git"
+  },
+  "keywords": [
+    "netology",
+    "ajs"
+  ],
+  "author": "extrin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/extrin/netology-ajs-lection_3-task_2/issues"
+  },
+  "homepage": "https://github.com/extrin/netology-ajs-lection_3-task_2#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
